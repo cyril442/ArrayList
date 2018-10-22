@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                  Intent colorsIntent = new Intent(MainActivity.this, ColorsActivity.class);
                  startActivity(colorsIntent);
 
-                 // PHRASES
+                 //  LES PHRASES
           TextView phrases = (TextView) findViewById(R.id.phrases);
           phrases.setOnClickListener(new View.OnClickListener() {
               @Override
